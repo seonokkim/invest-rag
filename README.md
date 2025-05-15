@@ -1,5 +1,8 @@
 # INVEST-RAG: Investment Education Question Answering System
 
+![Overview](figure/streamlit.png)
+
+
 INVEST-RAG is a Retrieval-Augmented Generation (RAG) system that provides educational information about investments and stock markets. The system combines modern NLP techniques with investment knowledge to provide beginner-friendly, contextual responses about finance and investing.
 
 ## Features
@@ -9,18 +12,6 @@ INVEST-RAG is a Retrieval-Augmented Generation (RAG) system that provides educat
 - **Efficient Retrieval**: Employs sentence transformers for creating and comparing embeddings
 - **User-Friendly Interface**: Built with Streamlit for an accessible web application experience
 - **Performance Optimized**: Uses 4-bit quantization for efficient model deployment
-
-## Project Structure
-
-```
-invest-rag/
-├── invest_app.py       # Main Streamlit application
-├── clean_text.pkl      # Preprocessed investment education text segments
-├── invest_embeddings.pt # Pre-computed embeddings for investment texts
-├── requirements.txt    # Project dependencies
-├── README.md           # Project documentation
-└── .gitignore          # Git ignore file
-```
 
 ## Installation
 
